@@ -1,6 +1,6 @@
 #wrapper {								
 border: 1px solid grey;
-width:900px;
+width:auto;
 height:auto;
 margin: 0px auto;
 }
@@ -13,8 +13,12 @@ text-align: center;
 }
 #main {
 border:1px solid grey;
-height:600px;
+height:auto;
 }
+.morado {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      }
 #footer {
 height: 40px;
 border-top:1px solid grey;
@@ -23,5 +27,4 @@ text-align:center;
 }
 .p {
     float: left;
-
     } 
