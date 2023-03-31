@@ -273,3 +273,32 @@ h4{
             -webkit-animation-name: bounceInRight;
             animation-name: bounceInRight;
           }
+
+
+
+.class_red{
+      background-color: red;
+      display: inline-block;
+}          
+
+img.derecha {
+       float:right; 
+    }
+
+    .class_red img.izquierda h2 {
+      clear: both;
+    }
+
+    img{
+      width: 200px;
+      height: 200px;
+      border: 2px solid #ee930a;
+      margin: none;
+      vertical-align: middle;
+    }
+    
+    #titulo{
+      display: inline-block;
+      text-align: center;
+      width: calc(100% - 228px);
+    }
