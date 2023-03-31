@@ -15,16 +15,31 @@ text-align: center;
 border:1px solid grey;
 height:auto;
 }
-.morado {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      }
+
+
 #footer {
 height: 40px;
 border-top:1px solid grey;
 font-size:14px;
 text-align:center;
 }
+
 .p {
     float: left;
-    } 
+ } 
+
+ #wrapper #table1{
+      width:900px;
+      height:250px;
+      table-layout:fixed;
+      }
+      
+    
+#wrapper #table1 td h3{
+        text-align:center;
+}           
+
+img{
+      margin-top:10px;
+      margin-right:750px;
+      }
