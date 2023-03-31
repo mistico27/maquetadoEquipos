@@ -292,7 +292,10 @@ img.derecha {
 h4{
 color:red;
 }
-      
+
+.sam {
+  background-color: hsl(252.86deg 21.88% 25.1%);
+}
 
 #footer{
   height: 40px;
