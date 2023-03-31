@@ -1,60 +1,70 @@
-#wrapper {								
-border: 1px solid grey;
-width:auto;
-height:auto;
-margin: 0px auto;
-}
-#header {
-border:1px solid grey;
-width:100%;
-height:50 px;
-background: whitesmoke;
-text-align: center;
-}
-#main {
-border:1px solid grey;
-height:auto;
-}
-
-
-#footer {
-height: 40px;
-border-top:1px solid grey;
-font-size:14px;
-text-align:center;
-}
-
-.p {
-    float: left;
- } 
-
- #wrapper #table1{
-      width:900px;
-      height:250px;
-      table-layout:fixed;
-      }
-      
-    
-#wrapper #table1 td h3{
-        text-align:center;
-}           
-
 img{
-      margin-top:10px;
-      margin-right:750px;
-      }
+      margin-top: 0%;
+      width: 100%;
+      height: 450px;
+      border: 2px solid #999186;
+      margin: none;
+      vertical-align: middle;
+}
+      
 
-#texto{
-display: inline-block;
- vertical-align: top;
-}      
+.square {
+      height: 300px;
+      width: 450px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
 
-h4{
-      color:red;
+
+.box {
+      display: flex;
+    }
+
+.negro {
+      background-color: black;
+}
+    
+.rojo {
+      background-color: rgb(180, 14, 14);
+}
+    
+.azul {
+      background-color: rgb(31, 31, 129);
 }
 
 
-.cuadrado {
+.textoinline{
+      display: inline-flex;
+}
+
+
+.class_blue{
+      background-color: rgb(70, 23, 199);
+}
+
+.class_red{
+      background-color: rgb(180, 14, 14);
+      display: inline-block;
+}  
+
+.class_white{
+      background-color: aliceblue;
+}
+
+img.derecha {
+      float:right; 
+      width:250px;
+      height:250px;
+   }
+
+   img.izquierda {
+      float:left; 
+      width:250px;
+      height:250px;
+   }
+
+   .cuadrado {
       width: 150px;           
       height: 150px;          
       background: rgba(0, 4, 255, 0.589);       
@@ -72,7 +82,6 @@ h4{
       border-bottom: 150px solid transparent;
       border-left: 150px solid rgba(0, 4, 255, 0.589);
       }
-
 
       .animated {
             -webkit-animation-duration: 1s;
@@ -273,72 +282,15 @@ h4{
             -webkit-animation-name: bounceInRight;
             animation-name: bounceInRight;
           }
-
-
-
-.class_red{
-      background-color: red;
-      display: inline-block;
-}          
-
-img.derecha {
-       float:right; 
-    }
-
-    .class_red img.izquierda h2 {
-      clear: both;
-    }
-
-    img{
-      width: 200px;
-      height: 200px;
-      border: 2px solid #ee930a;
-      margin: none;
-      vertical-align: middle;
-    }
-    
-    #titulo{
-      display: inline-block;
-      text-align: center;
-      width: calc(100% - 228px);
-    }
-
-.class_blue{
-      background-color: rgb(70, 23, 199);
+h4{
+color:red;
 }
-
-
-.square {
-      height: 200px;
-      width: 200px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-#main{
-      display: inline-flex;
-}    
-
-.box {
-      display: flex;
-    }
-
-.negro {
-      background-color: black;
-}
-    
-.rojo {
-      background-color: rgb(180, 14, 14);
-}
-    
-.azul {
-      background-color: rgb(31, 31, 129);
-}
-
-
-#header #logo img{
-      width:100%;
-      height:550px;
       
+
+#footer {
+      height: auto;
+      border-top:1px solid rgb(114, 16, 16);
+      font-size:14px;
+      text-align:center;
+      background-color: bisque;
       }
