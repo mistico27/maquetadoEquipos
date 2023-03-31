@@ -320,6 +320,9 @@ img.derecha {
       display: inline-flex;
 }    
 
+.box {
+      display: flex;
+    }
 
 .negro {
       background-color: black;
@@ -332,3 +335,10 @@ img.derecha {
 .azul {
       background-color: rgb(31, 31, 129);
 }
+
+
+#header #logo img{
+      width:100%;
+      height:550px;
+      
+      }
