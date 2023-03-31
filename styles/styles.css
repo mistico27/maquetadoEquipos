@@ -302,3 +302,33 @@ img.derecha {
       text-align: center;
       width: calc(100% - 228px);
     }
+
+.class_blue{
+      background-color: rgb(70, 23, 199);
+}
+
+
+.square {
+      height: 200px;
+      width: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+#main{
+      display: inline-flex;
+}    
+
+
+.negro {
+      background-color: black;
+}
+    
+.rojo {
+      background-color: rgb(180, 14, 14);
+}
+    
+.azul {
+      background-color: rgb(31, 31, 129);
+}
