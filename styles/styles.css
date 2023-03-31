@@ -4,7 +4,7 @@ body{
   font-family:Arial;
   }
   
-  
+
 img{
       margin-top: 0%;
       width: 100%;
@@ -294,10 +294,9 @@ color:red;
 }
       
 
-#footer {
-      height: auto;
-      border-top:1px solid rgb(114, 16, 16);
-      font-size:14px;
-      text-align:center;
-      background-color: bisque;
-      }
+#footer{
+  height: 40px;
+  border-top:1px solid grey;
+  font-size:14px;
+  text-align:center;
+  }
