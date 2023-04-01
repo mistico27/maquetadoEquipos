@@ -33,11 +33,11 @@ img{
 }
     
 .rojo {
-      background-color: rgb(180, 14, 14);
+      background-color: hsl(352.88deg 53.64% 43.14%);
 }
     
 .azul {
-      background-color: rgb(31, 31, 129);
+      background-color: hsl(252.86deg 21.88% 25.1%);
 }
 
 
@@ -47,7 +47,7 @@ img{
 
 
 .class_blue{
-      background-color: rgb(70, 23, 199);
+      background-color: hsl(252.86deg 21.88% 25.1%);
 }
 
 .class_red{
