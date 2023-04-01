@@ -24,7 +24,8 @@ img{
 
 
 .box {
-      display: flex;
+      display: -webkit-flex;
+      width:auto;
     }
 
 .negro {
