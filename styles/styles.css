@@ -78,6 +78,12 @@ img.derecha {
       border: 1px solid #000; 
     }
     
+    .imagen{
+      width: 150px;           
+      height: 150px;          
+
+    }
+
     .alCentro {
       padding: 25px 0;
       text-align: center;
@@ -291,6 +297,8 @@ img.derecha {
           }
 h4{
 color:red;
+text-align: center;
+
 }
 
 .sam {
@@ -303,6 +311,12 @@ color:red;
   width: 40px;
 
 }
+
+#table2 {
+  text-align: center;
+}
+
+
 
 
 #footer{
