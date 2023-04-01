@@ -334,6 +334,41 @@ text-align: center;
   left: auto;
 }
 
+.container_imagenes{
+  width:600px;
+height:400px;
+display:flex;
+flex-wrap: wrap;
+margin-bottom:2%;
+
+}
+
+.item{
+	float:left;
+  width:23.5%;
+	margin-right:2%;
+	margin-bottom:2%;
+  margin-top:2%;
+  
+}	
+
+.imagen2{
+
+  height:380px;
+  width:150px;
+}
+
+.imagen3{
+
+  height: 253px;
+}
+
+.imagen4{
+  height:127px;
+  position: relative;
+ bottom: 150px;
+}
+
 
 #footer{
   height: 40px;
