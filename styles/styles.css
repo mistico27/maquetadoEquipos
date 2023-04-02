@@ -336,6 +336,33 @@ text-align: center;
   text-align: center;
 }
 
+.numeros{
+  display:flex;
+}
+
+.numeros p { 
+  flex: 1; border: transparent 1px solid; margin: 2px; 
+  float:left;
+  width:23.5%;
+	margin-right:2%;
+	margin-bottom:2%;
+  margin-top:2%;
+}
+
+.numerosII{
+  display: flex;
+}
+
+.numerosII p { 
+  flex: 1; border: transparent 1px solid; margin: 2px; 
+  float:right;
+  width:23.5%;
+	margin-right:2%;
+	margin-bottom:2%;
+  text-align: center;
+}
+
+
 
 .textomejorado{
   text-align: center;
