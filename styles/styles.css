@@ -389,12 +389,12 @@ text-align: center;
 height:400px;
 display:flex;
 flex-wrap: wrap;
-
+ 
 }
 
 .item{
 	float:left;
-  width:23.5%;
+  width:29.5%;
 	margin-right:2%;
 	margin-bottom:2%;
   margin-top:2%;
@@ -404,7 +404,7 @@ flex-wrap: wrap;
 .imagen2{
 
   height:380px;
-  width:150px;
+  width:177px;
 }
 
 .imagen3{
