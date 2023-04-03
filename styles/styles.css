@@ -596,11 +596,73 @@ a:hover, a:active {
 }
 
 /* TERMINA SAM */
+
+.dog {
+  display: grid;
+  font-family: sans-serif;
+  grid-template-columns: 1fr 1fr;
+
+  height: 500px;
+  display: flex;
+}
+
+.dog img{
+  width: 450px;
+ height: 400px;
+ position: relative;
+ left:300px ;
+}
+
+.dog .box {
+  height: 400px;
+  text-align: center;
+}
+
+.dog .box h1 {
+  font-weight: 36px;
+  padding-top: 100px;
+}
+
+.dog .box p {
+  font-weight: 16px;
+
+}
+
+.dog .box .boton {
+  border: solid;
+  border-color: rgb(214, 23, 40);
+}
+
+.food {
+  background-color: rgb(43, 41, 51);
+  display: grid;
+  font-family: sans-serif;
+  height: 100px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 25px;
+}
+
+.zup {
+  background-color: gray;
+  border-radius: 50%;
+  width: 20px;
+
+}
+
+.container h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
 #footer{
-  height: 40px;
-  border-top:1px solid grey;
-  font-size:14px;
-  text-align:center;
+  background-color: rgb(43, 41, 51);
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 8px;
   }
 
   /* rojo letras: hsl(352.88deg 53.64% 43.14%)*/
