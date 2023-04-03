@@ -509,6 +509,9 @@ p {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color:rgb(212, 175, 55);
+  font-size:45px;
+   font-weight: bold;
 }
 
 .textomejorado{
