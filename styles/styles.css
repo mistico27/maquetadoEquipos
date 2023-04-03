@@ -535,6 +535,7 @@ p {
   position: relative;
   left: 40%;
   bottom: -15%;
+  text-align: justify;
 }
 
 .textoalaDerechaII p{
