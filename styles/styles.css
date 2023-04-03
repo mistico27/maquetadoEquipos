@@ -507,6 +507,21 @@ p {
 }
 
 
+.container_imagenesII{
+  width:400px;
+  height:500px;
+  background-color: rgb(249, 249, 252);
+}
+
+.box1 {
+  width:150px;
+  margin:10px 50px;
+  padding:20px;
+  font-size:italic;
+  background-color:#cfc;
+  color:#000;
+}
+
 .centrarTexto{
   position: absolute;
   top: 30%;
@@ -548,10 +563,35 @@ p {
 }
 
 
+.morado{
+  text-align: justify;
+}
+
+
+.text_blanco{
+  margin-bottom: 2%;
+}
+
+
 .textoinline{
   display: inline-flex;
   position: relative;
-  left: auto;
+  width: 50px;
+  height: 50px;
+
+}
+
+.trablan {
+  width:63%;
+  top:40%;
+  margin-bottom: 2%;
+
+}
+
+.masalaizquierda{
+  position: relative;
+  right:16%;
+  margin-top: 2%;
 }
 
 .container_imagenes{
@@ -670,15 +710,10 @@ a:hover, a:active {
 
 
 .imagenesFooter{
-  width:18%;
-  height:80px;
+  width:6%;
+  height:23px;
 }
 
-
-.imagenesFooterII{
-  width:25%;
-  height:80px;
-}
 
 #footer{
   background-color: rgb(43, 41, 51);
