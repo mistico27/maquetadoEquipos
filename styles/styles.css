@@ -567,6 +567,23 @@ flex-wrap: wrap;
 a {
   outline: none;
   text-decoration: none;
+
+}
+
+
+a:link {
+  color:  rgb(156, 21, 21);
+  font-size: 40px;
+}
+a:visited {
+  color: rgb(239, 232, 232);
+}
+a:focus {
+  border-bottom: none;
+}
+a:hover, a:active {
+  color: rgb(209, 146, 146);
+
 }
 
 /* TERMINA SAM */
