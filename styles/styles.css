@@ -2,8 +2,9 @@
 
 * {
   margin: 0;
-    padding: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 html,
@@ -15,13 +16,55 @@ body{
   width: 100%;
   }
   
+/* Barra de navegación */
 
-img{
+.header{
+  background: white;
+  display: flex;
+  align-items: center;
+  height: 40px;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.header .logo_01 {
+  font-style: bold;
+  font-size: 12px;
+  padding: 15px;
+  transition: all 0.4s;
+}
+
+.header .logo_01 h2:hover {
+  transform: scale(1.1);
+  color:hsl(352.88deg 53.64% 43.14%) ;
+}
+
+.header .btn button {
+  background: white;
+  border: none;
+  font-size: 40px;
+  font-style: light;
+  color:#000;
+  padding: 9px 25px;
+}
+
+.header .btn button:hover {
+  background: none;
+  transform: scale(1.1);
+  color:hsl(352.88deg 53.64% 43.14%) ;
+}
+
+/* termina barra navegación */
+
+.encabezado {
+      filter:brightness(50%);
       margin-top: 0%;
       width: 100%;
       height: 450px;
       margin: none;
       vertical-align: middle;
+      
 }
       
 
@@ -54,14 +97,31 @@ img{
 }
 
 #txtMezclarII{
+  align-content: center;
   font-family:'Roboto', sans-serif;
   font-style: bold;
-  color:black;
+  color:white;
   height: 15%;
-  margin-left: 3px;
-  padding:0px;
+  padding: 50px;
 }
 
+#txtMezclarII h1{
+  align-items: center;
+  font-style: bold;
+  font-size: 4rem;
+  justify-content:center;
+  margin: 20px;
+  text-align: center;
+}
+#txtMezclarII p {
+  align-items: center;
+  color:rgb(255, 255, 255, 0.4);
+  justify-content:center;
+  margin: 40px;
+  text-align: center;
+
+
+}
 
 .textoinline{
       display: block;
@@ -459,7 +519,7 @@ color:red;
 text-align: center;
 
 }
-
+/* inicia sam */
 .sam {
   align-items:center;
   background-color: hsl(252.86deg 21.88% 25.1%);
@@ -477,11 +537,19 @@ h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   font-style:light;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-style:light;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-top: 10px;
+
+  
+
 }
 
 #table2 {
@@ -641,10 +709,10 @@ flex-wrap: wrap;
   height:8%;
   width:8%;
 }
+
 a {
   outline: none;
   text-decoration: none;
-
 }
 
 
