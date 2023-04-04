@@ -548,12 +548,18 @@ text-align: center;
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  font-style:light;
+  font-style: light;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-style:light;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  padding-top: 10px;
 }
 
 #table2 {
