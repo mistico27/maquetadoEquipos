@@ -6,61 +6,7 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-/* Barra de navegación */
 
-.header{
-  background: white;
-  display: flex;
-  align-items: center;
-  height: 40px;
-  justify-content: space-between;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.header .logo_01 {
-  font-style: bold;
-  font-size: 12px;
-  padding: 15px;
-  transition: all 0.4s;
-}
-
-.header .logo_01 h2:hover {
-  transform: scale(1.1);
-  color:hsl(352.88deg 53.64% 43.14%) ;
-}
-
-.header .btn button {
-  background: white;
-  border: none;
-  font-size: 40px;
-  font-style: light;
-  color:#000;
-  padding: 9px 25px;
-}
-
-.header .btn button:hover {
-  background: none;
-  transform: scale(1.1);
-  color:hsl(352.88deg 53.64% 43.14%) ;
-}
-
-/* termina barra navegación */
-
-.encabezado {
-  filter:brightness(50%);
-  margin-top: 0%;
-  width: 100%;
-  height: 450px;
-  margin: none;
-  vertical-align: middle;
-  
-}
-
-
-=======
->>>>>>> Chuch
 html,
 body{
   padding:0px;
@@ -110,17 +56,13 @@ img {
 
 
 .box {
-<<<<<<< HEAD
-      display: flex;
-      flex:initial;
-      border:black 1px solid;
-=======
+
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       flex:initial;
       border:black 1px solid;
      
->>>>>>> Chuch
+
     }
 
 
@@ -131,16 +73,12 @@ img {
     
 .rojo {
       background-color: hsl(352.88deg 53.64% 43.14%);
-<<<<<<< HEAD
-=======
       padding: 15px;
->>>>>>> Chuch
+
 }
     
 .azul {
       background-color: hsl(252.86deg 21.88% 25.1%);
-<<<<<<< HEAD
-=======
       padding: 15px;
 }
 
@@ -154,7 +92,7 @@ img {
   padding:0px;
   text-align: center;
   font-size: 25px;
->>>>>>> Chuch
+
 }
 
 
@@ -600,26 +538,15 @@ text-align: center;
 h3 {
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-<<<<<<< HEAD
-  font-style: light;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-=======
   font-style:light;
 }
->>>>>>> Chuch
+
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
   font-style:light;
-<<<<<<< HEAD
-  padding-bottom: 10px;
-  padding-right: 25px;
-  padding-top: 10px;
-=======
->>>>>>> Chuch
+
+
 }
 
 #table2 {
@@ -635,13 +562,10 @@ p {
   float:left;
   width:23.5%;
 	margin-right:2%;
-<<<<<<< HEAD
-	margin-bottom:0%;
-  margin-top:0%;
-=======
+
 	margin-bottom:2%;
   margin-top:2%;
->>>>>>> Chuch
+
 }
 
 .numerosII{
@@ -678,13 +602,10 @@ p {
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-<<<<<<< HEAD
-  color:white;
-  font-size:45px;
-=======
+
   color:rgb(212, 175, 55);
   font-size:20px;
->>>>>>> Chuch
+
    font-weight: bold;
 }
 
@@ -838,9 +759,7 @@ a:hover, a:active {
  position: relative;
  left:300px ;
 }
-<<<<<<< HEAD
 
-=======
  .x2 {
   height: 25px;
   text-align: center;
@@ -850,7 +769,7 @@ a:hover, a:active {
   border: 5px solid rgb(214, 23, 40)
 
  }
->>>>>>> Chuch
+
 
 
 .food {
@@ -864,16 +783,8 @@ a:hover, a:active {
   padding: 25px;
 }
 
-<<<<<<< HEAD
-.zup {
-  background-color: gray;
-  border-radius: 50%;
-  width: 20px;
 
-}
 
-=======
->>>>>>> Chuch
 .container h1 {
   font-size: 36px;
   font-weight: bold;
@@ -883,20 +794,7 @@ a:hover, a:active {
 .imagenesFooter{
   width:6%;
   height:23px;
-<<<<<<< HEAD
-}
 
-
-#footer{
-  background-color: rgb(43, 41, 51);
-  text-align: center;
-  color: rgb(255, 255, 255);
-  font-family: sans-serif;
-  font-size: 8px;
-  }
-
-  /* rojo letras: hsl(352.88deg 53.64% 43.14%)*/
-=======
  
 }
 
@@ -912,4 +810,3 @@ footer {
 
   /* rojo letras: hsl(352.88deg 53.64% 43.14%)*/
 
->>>>>>> Chuch
