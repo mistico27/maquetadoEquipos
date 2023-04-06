@@ -78,9 +78,9 @@ body{
 
 
 .box {
+      border:black 1px solid;
       display: flex;
       flex:initial;
-      border:black 1px solid;
     }
 
 
