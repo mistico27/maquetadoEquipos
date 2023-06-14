@@ -66,6 +66,7 @@ body{
       vertical-align: middle;
       
 }
+
       
 
 .square {
@@ -97,6 +98,9 @@ body{
 }
 
 #txtMezclarII{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   align-content: center;
   font-family:'Roboto', sans-serif;
   font-style: bold;
@@ -709,7 +713,7 @@ flex-wrap: wrap;
   height:8%;
   width:8%;
 }
-
+/* EFECTO HOVER */
 a {
   outline: none;
   text-decoration: none;
